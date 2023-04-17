@@ -10,7 +10,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class Post_Delete_PutExample {
+public class TC01_Post_Delete_PutExample {
 
 	@SuppressWarnings("unchecked")
 	@Test

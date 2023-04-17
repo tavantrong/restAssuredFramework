@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2569" started-at="2023-04-17T15:53:38Z" finished-at="2023-04-17T15:53:41Z">
+  <suite name="Default suite" duration-ms="2915" started-at="2023-04-17T16:32:24Z" finished-at="2023-04-17T16:32:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2569" started-at="2023-04-17T15:53:38Z" finished-at="2023-04-17T15:53:41Z">
-      <class name="getRequest.GetData">
-        <test-method status="PASS" signature="TC01_Test_ResponseCode()[pri:0, instance:getRequest.GetData@724af044]" name="TC01_Test_ResponseCode" duration-ms="2252" started-at="2023-04-17T22:53:38Z" finished-at="2023-04-17T22:53:41Z">
+    <test name="Default test" duration-ms="2915" started-at="2023-04-17T16:32:24Z" finished-at="2023-04-17T16:32:27Z">
+      <class name="restAPI.TC02_Delete">
+        <test-method status="PASS" signature="TC03_Delete_Data()[pri:0, instance:restAPI.TC02_Delete@724af044]" name="TC03_Delete_Data" duration-ms="2898" started-at="2023-04-17T23:32:24Z" finished-at="2023-04-17T23:32:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC01_Test_ResponseCode -->
-        <test-method status="PASS" signature="TC02_Test_Body()[pri:0, instance:getRequest.GetData@724af044]" name="TC02_Test_Body" duration-ms="299" started-at="2023-04-17T22:53:41Z" finished-at="2023-04-17T22:53:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC02_Test_Body -->
-      </class> <!-- getRequest.GetData -->
+        </test-method> <!-- TC03_Delete_Data -->
+      </class> <!-- restAPI.TC02_Delete -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
